@@ -1,0 +1,73 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:bone",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 0,
+                                "max": 2
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:coal",
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.3333
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:stone_sword",
+                    "quality": 0.1,
+                    "conditions": [
+                        {
+                            "condition": "random_chance",
+                            "chance": 0.085
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:wither_skeleton_skull",
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.05,
+                            "looting_multiplier": 0.02
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond",
+                    "functions": [
+                        {
+                            "function": "looting_enchant",
+                            "count": {
+                                "min": 1,
+                                "max": 1
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:0s}],HideFlags:1,componentLvl:1b,display:{Name:'{\"text\":\"Diamond Component\"}',Lore:['{\"text\":\"Tier 1 Component\"}']}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

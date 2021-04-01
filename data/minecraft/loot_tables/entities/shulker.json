@@ -1,0 +1,33 @@
+{
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shulker_shell",
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.5,
+                            "looting_multiplier": 0.0625
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:shulker_shell",
+                    "conditions": [
+                        {
+                            "condition": "random_chance_with_looting",
+                            "chance": 0.5,
+                            "looting_multiplier": 0.0625
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
